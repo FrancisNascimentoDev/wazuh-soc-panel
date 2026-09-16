@@ -174,6 +174,21 @@ sudo systemctl status wazuh-panel.service
 
 Este painel foi desenvolvido como parte de um laboratório de estudos de SOC com Wazuh 4.14.7 em Docker sobre Ubuntu Server 24.04, com múltiplos agentes Linux (Ubuntu, Debian, Kali) e automação completa de inicialização via systemd.
 
+
+## Evidencias
+
+### Servidor python rodando 
+<img src="img/serv. rodando.jpeg" alt="serv. rodando">
+
+### Servidor python pausado, docker e wazuh rodando 
+<img src="img/python pausado.jpeg" alt="serv. rodando">
+
+### Servidor Linux reiniciando 
+<img src="img/serv. reiniciando.jpeg" alt="serv. rodando">
+
+### Servidor Linux reiniciado offline servidor python e dockes.
+<img src="img/serv. reinicando reestabelecendo comunicação.jpeg" alt="serv. rodando">
+
 ## Autor
 
 **Francis Nascimento** 
@@ -181,7 +196,3 @@ Este painel foi desenvolvido como parte de um laboratório de estudos de SOC com
 ## Licença
 
 MIT
-
-<img src="img/serv. rodando.jpeg" alt="serv. rodando">
-
-![Logo da Minha Empresa](https://exemplo.com/logo.png)
