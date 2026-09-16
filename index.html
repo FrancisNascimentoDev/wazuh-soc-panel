@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wazuh SOC Status Panel</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="panel">
+  <header class="panel-header">
+    <h1>WAZUH STATUS</h1>
+    <p>Painel Operacional do SOC</p>
+  </header>
+
+  <section class="overall-status" id="overall-status">
+    <span class="dot" id="overall-dot"></span>
+    <span id="overall-text">Carregando...</span>
+  </section>
+
+  <section class="block">
+    <h2>Serviços principais</h2>
+    <ul class="status-list" id="services-list">
+      <li class="status-row"><span class="dot"></span> Docker <span class="value">--</span></li>
+      <li class="status-row"><span class="dot"></span> Wazuh Manager <span class="value">--</span></li>
+      <li class="status-row"><span class="dot"></span> Wazuh Indexer <span class="value">--</span></li>
+      <li class="status-row"><span class="dot"></span> Wazuh Dashboard <span class="value">--</span></li>
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>Agentes</h2>
+    <ul class="status-list" id="agents-list"></ul>
+    <p class="agents-summary" id="agents-summary">-- / -- agentes ativos</p>
+  </section>
+
+  <footer class="panel-footer">
+    <p>Servidor: <span id="server-ip">{{ config.server_ip }}</span></p>
+    <p>Wazuh: <span id="wazuh-version">{{ config.wazuh_version }}</span></p>
+    <p>Atualização automática: <span id="refresh-seconds">{{ config.refresh_seconds }}</span>s</p>
+  </footer>
+</div>
+
+<script src="/static/panel.js"></script>
+</body>
+</html>
