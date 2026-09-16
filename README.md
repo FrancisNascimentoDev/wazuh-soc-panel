@@ -186,7 +186,7 @@ Este painel foi desenvolvido como parte de um laboratório de estudos de SOC com
 ### Servidor Linux reiniciando 
 <img src="img/serv. reiniciando.jpeg" alt="serv. rodando">
 
-### Servidor Linux reiniciado offline servidor python e dockes.
+### Servidor Linux reiniciado, offline servidor python e dockes.
 <img src="img/serv. reinicando reestabelecendo comunicação.jpeg" alt="serv. rodando">
 
 ## Autor
