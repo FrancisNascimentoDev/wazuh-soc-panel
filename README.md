@@ -176,8 +176,12 @@ Este painel foi desenvolvido como parte de um laboratório de estudos de SOC com
 
 ## Autor
 
-**Francis Nascimento** — profissional em transição de carreira para Segurança da Informação, com 9+ anos de experiência em infraestrutura crítica.
+**Francis Nascimento** 
 
 ## Licença
 
 MIT
+
+<img src="img/serv. rodando.jpeg" alt="serv. rodando">
+
+![Logo da Minha Empresa](https://exemplo.com/logo.png)
